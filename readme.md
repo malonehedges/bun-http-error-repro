@@ -1,13 +1,15 @@
-## Getting Started
+# bun http error repro
 
-### Cloning the repo
+This repo shows the inconsistent behavior of bun's http handling
+
+## run
+
+In two separate terminal windows, run:
 
 ```sh
-bun create blank ./NAME_HERE
+bun run src/server.ts
 ```
 
-### Execute a file (eg. src/index.js)
-    
 ```sh
-bun run ./src/index.js
+bun run src/crash.ts
 ```
